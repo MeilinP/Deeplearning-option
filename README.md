@@ -6,7 +6,7 @@ Implementation of "Deep Learning for Options Trading: An End-to-End Approach" ([
 
 This project implements an end-to-end deep learning framework for options trading that learns directly from market data without requiring explicit option pricing models. The approach uses neural networks to map market features to optimal trading signals, optimized for risk-adjusted performance via Sharpe ratio maximization.
 
-**Data**: Works with **2 years of historical options data** from Polygon.io Starter plan (while the original paper used 10+ years of S&P 100 data, the methodology applies to any timeframe).
+**Data**: Works with **2 years of historical options data** from Polygon.io (while the original paper used 10+ years of S&P 100 data, the methodology applies to any timeframe).
 
 ## Features
 
