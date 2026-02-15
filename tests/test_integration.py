@@ -2,6 +2,10 @@
 End-to-end integration test for the options trading system
 """
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import numpy as np
 from data_utils import generate_synthetic_options_data, DataPreprocessor
 from options_trading_dl import LinearModel, MLPModel, OptionsTrader

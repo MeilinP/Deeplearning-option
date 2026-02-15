@@ -40,6 +40,7 @@ Deeplearning-option/
 ├── options_trading_dl.py   # Neural network models and training
 ├── backtesting.py          # Backtesting framework
 ├── demo.ipynb             # Interactive demonstration
+├── tests/                  # Integration and API tests
 ├── requirements.txt        # Python dependencies
 ├── .env                   # API credentials (not in git)
 └── README.md              # This file
